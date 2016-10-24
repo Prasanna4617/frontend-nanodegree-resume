@@ -13,7 +13,17 @@ h6 {
   margin:0;
   font-family: "Roboto", sans-serif;
 }
-
+.container{
+  background-color: Beige;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img_responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .clear-fix {
   overflow: auto;
 }
@@ -26,17 +36,19 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: Beige;
   line-height: 48px;
   display: inline;
+  font-family: "Lato",Helvetica,sans-serif;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: Salmon;
   line-height: 29px;
   padding: 10px;
+  font-family: "Roboto",sans-serif;
 }
 
 h3 {
@@ -80,56 +92,58 @@ h5 {
 }
 
 p {
-  font-size: 14px;
-  color: #333;
+  font-size: 18px;
+  color: maroon;
   line-height: 21px;
+  font-family: "Crimson Text","Lato",Helvetica,sans-serif;
 }
 
 a {
-  color: #1199c3;
-  text-decoration: none;
+   text-decoration: none;
   margin-top: 10px;
   display: block;
+  font-size: 22px;
+  font-family: "Lobster","Lato",Helvetica,sans-serif;
 }
 
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: Maroon;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: Beige;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: Black;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: Beige;
 }
 
 .white-text {
   font-weight: bold;
-  color: #fff;
+  color: maroon;
 }
 
 .gray {
-  background-color: #f3f3f3;
+  /*background-color: #f3f3f3;*/
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
+.bgcolor {
+  background-color: #008b63;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: Salmon;
 }
 
 .flex-box {
